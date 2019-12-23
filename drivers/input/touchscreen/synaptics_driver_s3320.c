@@ -132,13 +132,13 @@ struct test_header {
 #define Mgestrue            12  // M
 #define Wgestrue            13  // W
 
-#define KEY_DOUBLE_TAP				KEY_WAKEUP
-#define KEY_GESTURE_CIRCLE			250
-#define KEY_GESTURE_TWO_SWIPE		251
-#define KEY_GESTURE_DOWN_ARROW		252
-#define KEY_GESTURE_LEFT_V			253
-#define KEY_GESTURE_RIGHT_V			254
-#define KEY_GESTURE_UP_ARROW		255
+#define KEY_DOUBLE_TAP				KEY_POWER             // was KEY_WAKEUP
+#define KEY_GESTURE_CIRCLE			KEY_CAMERA            // was 250
+#define KEY_GESTURE_TWO_SWIPE		KEY_PLAYPAUSE         // was 251
+#define KEY_GESTURE_DOWN_ARROW		KEY_LIGHTS_TOGGLE     // was 252
+#define KEY_GESTURE_LEFT_V			KEY_PREVIOUSSONG      // was 253
+#define KEY_GESTURE_RIGHT_V			KEY_NEXTSONG          // was 254
+#define KEY_GESTURE_UP_ARROW		KEY_ATTENDANT_TOGGLE  // was 255
 #define KEY_GESTURE_SWIPE_RIGHT		KEY_F5
 #define KEY_GESTURE_SWIPE_LEFT		KEY_F6
 #define KEY_GESTURE_SWIPE_DOWN		KEY_F7
