@@ -159,7 +159,7 @@ int double_swipe_enable = 0; // "||"
 int letter_o_enable = 0; // "O"
 int down_arrow_enable = 0; //"V"
 int up_arrow_enable = 0; //"^"
-int double_tap_enable = 0; //"double tap"
+int double_tap_enable = 1; //"double tap"
 
 int right_swipe_enable=0;//"(-->)"
 int left_swipe_enable=0;//"(<--)"
